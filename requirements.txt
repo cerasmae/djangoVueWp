@@ -1,0 +1,6 @@
+Django==1.11.14
+django-webpack-loader==0.6.0
+nodejs==0.1.1
+npm==0.1.1
+optional-django==0.1.0
+pytz==2018.5
