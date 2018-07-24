@@ -1,15 +1,15 @@
-$card-red: #F44336;
-$card-orange: #FF9800;
-$card-yellow: #FFEB3B;
-$card-green: #4CAF50;
-$card-blue: #2196F3;
-$card-indigo: #3F51B5;
-$card-violet: #9C27B0;
-$card-pink: #E91E63;
-$card-brown: #795548;
-$card-grey: #9E9E9E;
-$card-black: #000000;
-$card-white: #FFFFFF;
+$card-red: #FF8A80; $card-light-red: #FFEBEE;
+$card-orange: #FFD180; $card-light-orange: #FFF3E0;
+$card-yellow: #FFFF8D; $card-light-yellow: #FFFDE7;
+$card-green: #B9F6CA; $card-light-green: #E8F5E9;
+$card-blue: #82B1FF; $card-light-blue: #E3F2FD;
+$card-indigo: #3F51B5; $card-light-indigo: #3F51B5;
+$card-violet: #EA80FC; $card-light-violet: #F3E5F5;
+$card-pink: #FF80AB; $card-light-pink: #FCE4EC;
+$card-brown: #795548; $card-light-brown: #795548;
+$card-grey: #BDBDBD; $card-light-grey: #FAFAFA;
+$card-black: #000000; $card-light-black: #E0E0E0;
+$card-white: #FFFFFF; $card-light-white: #FFFFFF;
 $font-family: 'Avenir', Helvetica, Arial, sans-serif;
 
 body {
@@ -24,8 +24,100 @@ body {
 	padding: 10px;
 }
 
-.background-red {
+.header-red {
 	background: $card-red;
+}
+
+.header-orange {
+	background: $card-orange;
+}
+
+.header-yellow {
+	background: $card-yellow;
+}
+
+.header-green {
+	background: $card-green;
+}
+
+.header-blue {
+	background: $card-blue;
+}
+
+.header-indigo {
+	background: $card-indigo;
+}
+
+.header-violet {
+	background: $card-violet;
+}
+
+.header-pink {
+	background: $card-pink;
+}
+
+.header-brown {
+	background: $card-brown;
+}
+
+.header-grey {
+	background: $card-grey;
+}
+
+.header-black {
+	background: $card-black;
+}
+
+.header-white {
+	background: $card-white;
+}
+
+.background-red {
+	background: $card-light-red;
+}
+
+.background-orange {
+	background: $card-light-orange;
+}
+
+.background-yellow {
+	background: $card-light-yellow;
+}
+
+.background-green {
+	background: $card-light-green;
+}
+
+.background-blue {
+	background: $card-light-blue;
+}
+
+.background-indigo {
+	background: $card-light-indigo;
+}
+
+.background-violet {
+	background: $card-light-violet;
+}
+
+.background-pink {
+	background: $card-light-pink;
+}
+
+.background-brown {
+	background: $card-light-brown;
+}
+
+.background-grey {
+	background: $card-light-grey;
+}
+
+.background-black {
+	background: $card-light-black;
+}
+
+.background-white {
+	background: $card-light-white;
 }
 
 .container-card {

@@ -10,8 +10,100 @@ body {
   padding: 10px;
 }
 
+.header-red {
+  background: #FF8A80;
+}
+
+.header-orange {
+  background: #FFD180;
+}
+
+.header-yellow {
+  background: #FFFF8D;
+}
+
+.header-green {
+  background: #B9F6CA;
+}
+
+.header-blue {
+  background: #82B1FF;
+}
+
+.header-indigo {
+  background: #3F51B5;
+}
+
+.header-violet {
+  background: #EA80FC;
+}
+
+.header-pink {
+  background: #FF80AB;
+}
+
+.header-brown {
+  background: #795548;
+}
+
+.header-grey {
+  background: #BDBDBD;
+}
+
+.header-black {
+  background: #000000;
+}
+
+.header-white {
+  background: #FFFFFF;
+}
+
 .background-red {
-  background: #F44336;
+  background: #FFEBEE;
+}
+
+.background-orange {
+  background: #FFF3E0;
+}
+
+.background-yellow {
+  background: #FFFDE7;
+}
+
+.background-green {
+  background: #E8F5E9;
+}
+
+.background-blue {
+  background: #E3F2FD;
+}
+
+.background-indigo {
+  background: #3F51B5;
+}
+
+.background-violet {
+  background: #F3E5F5;
+}
+
+.background-pink {
+  background: #FCE4EC;
+}
+
+.background-brown {
+  background: #795548;
+}
+
+.background-grey {
+  background: #FAFAFA;
+}
+
+.background-black {
+  background: #E0E0E0;
+}
+
+.background-white {
+  background: #FFFFFF;
 }
 
 .container-card {
