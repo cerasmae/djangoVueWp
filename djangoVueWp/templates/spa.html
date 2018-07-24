@@ -1,4 +1,15 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
-  <div id="app"></div>
+
+	<div class="container">
+		<div id="app"></div>
+	</div>
+
+{% endblock %}
+
+
+{% block styles %}
+	<style src="{% static 'stylesheets/style.css' %}">
+	</style>
 {% endblock %}

@@ -27,7 +27,7 @@ class Question(models.Model):
 	question = models.CharField(max_length=255, blank=False)
 	description = models.TextField(blank=True)
 	cover = models.FileField(upload_to=cover_upload_path, blank=True)
-	color = models.CharField(choices=COLOR_CHOICES, default='White')
+	color = models.CharField(choices=COLOR_CHOICES, default='White', max_length=10)
 
 	# @property
 	# def cover_url(self):
@@ -36,5 +36,5 @@ class Question(models.Model):
 	# 	return static('img/default_cover.png')
 
 	def __str__(self):
-		return self.title
+		return self.question
 	

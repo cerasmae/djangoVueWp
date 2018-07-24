@@ -1,0 +1,30 @@
+body {
+  background: #FFFFFF;
+}
+
+.container {
+  padding: 10px;
+}
+
+.container-fluid {
+  padding: 10px;
+}
+
+.background-red {
+  background: #F44336;
+}
+
+.container-card {
+  margin: 10px;
+}
+
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+$card-red: #F44336;
+$card-orange: #FF9800;
+$card-yellow: #FFEB3B;
+$card-green: #4CAF50;
+$card-blue: #2196F3;
+$card-indigo: #3F51B5;
+$card-violet: #9C27B0;
+$card-pink: #E91E63;
+$card-brown: #795548;
+$card-grey: #9E9E9E;
+$card-black: #000000;
+$card-white: #FFFFFF;
+$font-family: 'Avenir', Helvetica, Arial, sans-serif;
+
+body {
+	background: $card-white;
+}
+
+.container {
+	padding: 10px;
+}
+
+.container-fluid {
+	padding: 10px;
+}
+
+.background-red {
+	background: $card-red;
+}
+
+.container-card {
+	margin: 10px;
+}
+
+#app {
+  font-family: $font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
